@@ -1,0 +1,14 @@
+<div class="main-box mb-5">
+  <div class="border-0" *ngFor="let item of data">
+    <div class=" card p-4">
+      <div class="d-flex">
+        <span><img [src]="item.icon" alt=""></span>
+        <h5 class="card-title m-0 align-self-center">{{item.title}}</h5>
+      </div>
+      <p class="card-text">{{item.description}}</p>
+    </div>
+    <div class="image text-end">
+      <img class="" [src]="item.image" alt="">
+    </div>
+  </div>
+</div>

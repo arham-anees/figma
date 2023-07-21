@@ -1,0 +1,39 @@
+.main-box{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 261px;
+  min-width: 261px;
+margin-right: 20px;
+  background: #F9F7F6;
+  min-height: 200px;
+  border: none;
+
+  .card-title {
+    font-weight: 700;
+  }
+
+  .card-text {
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+
+
+}
+
+.image {
+  transform: translate(11%, -60%);
+  max-width: 261px;
+  min-width: 261px;
+
+}
+
+.border-0{
+  max-height: 300px;
+}

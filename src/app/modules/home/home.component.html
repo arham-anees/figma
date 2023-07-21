@@ -1,0 +1,60 @@
+<div class="container pt-5">
+  <div class="flex">
+    <div class="card">
+        <div class="card-body p-5">
+          <!-- Starting Card Content -->
+              <img src="assets/images/profileImage.png" alt="profile" />
+              <span class="ms-2">Andrew Goven</span>
+              <span class="text-muted event-details ms-4"><span><img src="assets/svg-icons/calendar.svg"></span> August
+                05.</span>
+              <span class="text-muted event-details ms-4"><span><img src="assets/svg-icons/time.svg"></span> 6 min</span>
+              <span class="event-name ms-4">TOPIC</span>
+            <div class="card-body p-1">
+              <h5 class="card-title">Lorem ipsum dolor sit amet consectetur. Ornare a gravida integer eget.</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur. Ut viverra lorem fermentum augue sagittis mi
+                neque id. Mi massa tincidunt id sed odio iaculis sit egestas.</p>
+            </div>
+            <div class="pt-3">
+              <button class="btn btn-danger">Read more</button>
+            </div>
+          
+          <!-- Ending Card Content -->
+        </div>
+      </div>
+
+      <div class="image">
+          <img src="assets/images/farm.png" >
+      </div>
+  </div>
+</div>
+
+<app-main-section></app-main-section>
+<div style="background:#F9F7F6;">
+    <app-card-section [data]="drink"></app-card-section>
+</div>
+
+
+<div class="container">
+    <div class="row justify-content-center py-5">
+        <img class=" imagePink col-lg-7 col-11 p-0" src="assets/pink.png" alt="image">
+        <img class="imageYellow col-lg-5 col-11 p-0" src="assets/yellow.png" alt="image">
+        <p class="text-muted text-center mt-2">Lorem ipsum</p>
+    </div>
+    <hr />
+    <app-card-section [data]="travel"></app-card-section>
+    <hr />
+
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-lg-7 col-12 mb-5 ads-form">
+                <app-form></app-form>
+            </div>
+            <img class="col-lg-5 col-12 mb-5 ads-form" src="assets/Campaign-Posters-Jam-Shed 1.png" alt="image">
+        </div>
+    </div>
+</div>
+<div style="background:#F9F7F6;">
+    <app-card-section [data]="event"></app-card-section>
+</div>
+
+<app-footer></app-footer>

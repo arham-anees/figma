@@ -1,0 +1,19 @@
+<div class="container">
+  <app-sub-menu></app-sub-menu>
+  <hr style="width: 100%; color: #ccc2c2;">
+  <div class="row justify-content-center">
+    <div class="col-lg-3 col-11">
+      <app-events-card [data]="event_array_1"></app-events-card>
+    </div>
+    <div class="col-lg-6 col-11">
+      <app-main-section-card></app-main-section-card>
+    </div>
+    <div class="col-lg-3 col-11">
+      <p>TOPIC</p>
+      <hr style="width: 100%; color: #ccc2c2;">
+      <app-events-card [data]="event_array_2"></app-events-card>
+    </div>
+  </div>
+  <hr />
+  <app-main-box [data]="box_array"></app-main-box>
+</div>

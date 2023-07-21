@@ -1,0 +1,61 @@
+.btn-icon {
+    border: none;
+    border-radius: 8px;
+    background-color: #F9F7F6;
+}
+
+
+.header {
+    // height: 129px;
+    background-color: #FFFFFF;
+    .header-options {
+        justify-content: end;
+     }
+}
+
+.border-icons {
+    border-right: 1px solid #EBEFF1
+}
+
+.menus {
+ 
+    border-radius: 100px;
+    background: #ffffff;
+    box-shadow: 0px 4px 32px 0px #F4F5F9, 0px 0px 2px 0px #D7DBE7;
+    transform: translateY(27px);
+    overflow: auto;
+    white-space: nowrap;
+    span{
+        padding: 18px;
+        font-family:'Lexend';
+        font-size:14px;
+        cursor: pointer;
+        font-weight: 400;
+    }
+    .active{
+        color: #E0714E;
+    }
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+  // media query for only mobile  
+  @media only screen and (min-width: 480px) {
+    .menus {
+       justify-content: center; /* Make the container scrollable horizontally */
+    }
+    .header .header-options {
+        justify-content: end; /* Make the container scrollable horizontally */
+     }
+}
+
+  // media query for only mobile  
+  @media only screen and (max-width: 480px) {
+
+    .header .header-options {
+        justify-content: center; /* Make the container scrollable horizontally */
+     }
+}

@@ -1,0 +1,60 @@
+.social {
+  background: #FFFFFF;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+button {
+  background: #164056;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-right: -5px;
+  font-size: 14px;
+  border: none;
+}
+
+input {
+  border: none;
+  flex: 1;
+  background: none;
+  outline: none;
+}
+
+.topic {
+  padding: 4px 12px;
+  border-radius: 15px;
+  background: #E9EAEB;
+  color: #164056;
+  font-size: 12px;
+
+}
+
+.card {
+
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .card-title {
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .card-text {
+    font-weight: 300;
+    font-size: 14px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #164056;
+}
+
+.form {
+  background: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+

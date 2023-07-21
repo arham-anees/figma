@@ -1,0 +1,21 @@
+.card{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  .card-title{
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .card-text{
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .author-info{
+    font-size: 14px;
+    font-family: Lexend;
+  }
+}
+@media (min-width: 992px) {
+  .card{
+    max-width: 32%;
+  }
+}

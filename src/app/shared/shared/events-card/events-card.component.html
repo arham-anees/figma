@@ -1,0 +1,16 @@
+<div class="card mb-5 border-0" *ngFor="let item of data">
+  <div class="p-1">
+      <img [src]="item.profileImage" alt="profile" />
+      <span class="ms-2">{{item.name}}</span>
+  </div>
+  <img *ngIf="item.image" class="card-img-top" [src]="item.image" alt="Card image">
+  <div class="card-body p-1">
+    <h5 class="card-title">{{item.header}}</h5>
+    <p class="card-text">{{item.text}}</p>
+    <div class="">
+      <span class="event-name">{{item.type}}</span>
+      <span class="text-muted event-details ms-2"><span><img src="assets/svg-icons/calendar.svg"></span> {{item.date}}</span>
+      <span class="text-muted event-details ms-2"><span><img src="assets/svg-icons/time.svg"></span> {{item.time}}</span>
+  </div>
+  </div>
+</div>
